@@ -13,7 +13,7 @@ Youtube: [View on YouTube](https://www.youtube.com/watch?v=GW0-nxV65Xg)
 
 Source: [Dribble](https://dribbble.com/shots/11180824-Healthcare-Mobile-App-for-Doctors-and-Patients)
 
-Contact Me @Summonshr@gmail.com
+Contact Me Summonshr@gmail.com
 
 ![Alt text](/Screenshot-1.png?raw=true "page 1")
 
