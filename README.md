@@ -1,6 +1,21 @@
 # med
 
-A new Flutter project.
+Med UI made with flutter
+
+# Design
+
+Source: https://dribbble.com/shots/11180824-Healthcare-Mobile-App-for-Doctors-and-Patients
+
+Contact Me @Summonshr@gmail.com
+
+![Alt text](/Screenshot-1.png?raw=true "page 1")
+
+![Alt text](/Screenshot-2.png?raw=true "page 2")
+
+![Alt text](/Screenshot-3.png?raw=true "page 3")
+
+![Alt text](/Screenshot-4.png?raw=true "page 4")
+
 
 ## Getting Started
 

@@ -42,83 +42,86 @@ class DoctorPage extends StatelessWidget {
                     fontWeight: FontWeight.w400,
                     fontSize: 18.0))),
         body: Container(
-            padding: EdgeInsets.only(top: 10.0),
             decoration: BoxDecoration(
                 color: Colors.white,
                 borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(25.0),
-                    topRight: Radius.circular(25.0))),
-            child: Column(
-              children: <Widget>[
-                TileOne(
-                  index: data['index'],
-                  title: data['title'],
-                  subtitle: data['subtitle'],
-                  image: data['image'],
-                  rating: data['rating'],
-                  experience: data['experience'],
-                  color: false,
-                ),
-                Padding(
-                  padding: const EdgeInsets.only(left: 20.0, top: 10.0),
-                  child: Row(
+                    topLeft: Radius.circular(15.0),
+                    topRight: Radius.circular(15.0))),
+            child: SingleChildScrollView(
+              child: Column(
+                children: <Widget>[
+                  SizedBox(height: 10),
+                  TileOne(
+                    index: data['index'],
+                    title: data['title'],
+                    subtitle: data['subtitle'],
+                    image: data['image'],
+                    rating: data['rating'],
+                    experience: data['experience'],
+                    color: false,
+                  ),
+                  Padding(
+                    padding: const EdgeInsets.only(left: 20.0, top: 10.0),
+                    child: Row(
+                      children: <Widget>[
+                        Text(
+                          "Education",
+                          style: TextStyle(color: Colors.grey, fontSize: 10.0),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10.0,
+                  ),
+                  TileSecond(
+                      title: 'Loyola University Chicago SSOM',
+                      subtitle: "Doctor of Medicine",
+                      icon: Icons.call_split),
+                  TileSecond(
+                      title: 'Loyola University Medical Center',
+                      subtitle: "Internship",
+                      icon: Icons.call_merge),
+                  SizedBox(height: 20),
+                  Row(
                     children: <Widget>[
-                      Text(
-                        "Education",
-                        style: TextStyle(color: Colors.grey, fontSize: 10.0),
+                      Padding(
+                        padding: const EdgeInsets.only(left: 25.0),
+                        child: Text('Information',
+                            style: TextStyle(color: Colors.grey)),
                       ),
                     ],
                   ),
-                ),
-                SizedBox(
-                  height: 10.0,
-                ),
-                TileSecond(
-                    title: 'Loyola University Chicago SSOM',
-                    subtitle: "Doctor of Medicine",
-                    icon: Icons.call_split),
-                TileSecond(
-                    title: 'Loyola University Medical Center',
-                    subtitle: "Internship",
-                    icon: Icons.call_merge),
-                SizedBox(height: 20),
-                Row(
-                  children: <Widget>[
-                    Padding(
-                      padding: const EdgeInsets.only(left: 25.0),
-                      child: Text('Information',
-                          style: TextStyle(color: Colors.grey)),
-                    ),
-                  ],
-                ),
-                Column(
-                  children: <Widget>[
-                    Padding(
-                      padding: const EdgeInsets.symmetric(
-                          vertical: 8.0, horizontal: 25.0),
-                      child: Container(
-                          width: double.infinity,
-                          padding: EdgeInsets.all(20.0),
-                          decoration: BoxDecoration(
-                              color: Colors.purple.shade100.withOpacity(0.2),
-                              borderRadius: BorderRadius.circular(10.0)),
-                          child: Text(
-                              'As a primary care physician, Emily Wilson, MD, provides comprehensive services to patients of all ages, Dr. Wilson offers inclusive family medicine with a particular focus on diabetes care for adults and geriatric medicine',
-                              style: TextStyle(fontSize: 16.0))),
-                    )
-                  ],
-                ),
-                SizedBox(height: 20),
-                Container(
-                  padding:
-                      EdgeInsets.symmetric(vertical: 15.0, horizontal: 80.0),
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(25.0),
-                      color: Colors.deepPurple),
-                  child: Text("Start a chat",
-                      style: TextStyle(color: Colors.white)),
-                )
-              ],
+                  Column(
+                    children: <Widget>[
+                      Padding(
+                        padding: const EdgeInsets.symmetric(
+                            vertical: 8.0, horizontal: 25.0),
+                        child: Container(
+                            width: double.infinity,
+                            padding: EdgeInsets.all(20.0),
+                            decoration: BoxDecoration(
+                                color: Colors.purple.shade100.withOpacity(0.2),
+                                borderRadius: BorderRadius.circular(10.0)),
+                            child: Text(
+                                'As a primary care physician, Emily Wilson, MD, provides comprehensive services to patients of all ages, Dr. Wilson offers inclusive family medicine with a particular focus on diabetes care for adults and geriatric medicine',
+                                style: TextStyle(fontSize: 16.0))),
+                      )
+                    ],
+                  ),
+                  SizedBox(height: 20),
+                  Container(
+                    padding:
+                        EdgeInsets.symmetric(vertical: 15.0, horizontal: 80.0),
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(25.0),
+                        color: Colors.deepPurple),
+                    child: Text("Start a chat",
+                        style: TextStyle(color: Colors.white)),
+                  ),
+                  SizedBox(height: 20)
+                ],
+              ),
             )));
   }
 }
