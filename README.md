@@ -15,13 +15,13 @@ Source: [Dribble](https://dribbble.com/shots/11180824-Healthcare-Mobile-App-for-
 
 Contact Me Summonshr@gmail.com
 
-![Alt text](/Screenshot-1.png?raw=true "page 1")
+![Screenshot 1](/Screenshot-1.png?raw=true)
 
-![Alt text](/Screenshot-2.png?raw=true "page 2")
+![Screenshot 2](/Screenshot-2.png?raw=true)
 
-![Alt text](/Screenshot-3.png?raw=true "page 3")
+![Screenshot 3](/Screenshot-3.png?raw=true)
 
-![Alt text](/Screenshot-4.png?raw=true "page 4")
+![Screenshot 4](/Screenshot-4.png?raw=true)
 
 
 ## Getting Started
