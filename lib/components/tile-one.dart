@@ -13,7 +13,7 @@ class TileOne extends StatelessWidget {
 
   final String index;
 
-  bool color;
+  final bool color;
 
   TileOne(
       {Key key,

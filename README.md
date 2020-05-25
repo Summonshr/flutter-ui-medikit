@@ -1,6 +1,6 @@
-# med
+# Meds UI
 
-Med UI made with flutter
+Meds UI made with flutter
 
 # Demo
 
